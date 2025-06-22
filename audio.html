@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Spotify</title>
+    <link rel="stylesheet" href="audio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="top-right-container">
+        <a href="video.html" target="_blank">
+            <img src="VIDEO88.png" alt="Link to another site" class="website-link-img">
+        </a>
+        <p class="sub-text">Not Netflix</p>
+    </div>
+    <div class="audio-player-container">
+        <h1><span class="not-text">Not</span> Spotify</h1>
+
+        <div class="player-main">
+            <div class="artist-image-container">
+                <img id="artist-image" src="mukul-kumar-oWfo8H7wvWo-unsplash.jpg" alt="Artist">
+            </div>
+            
+            <div class="track-info-controls">
+                <img src="yulia-matvienko-ArA3S3k0wTU-unsplash.jpg" alt="Player Logo" class="player-logo">
+                
+                <div class="track-details">
+                    <h2 id="track-title">Gang_Baby</h2>
+                    <p id="artist-name">NLE_Choppa</p>
+                </div>
+                
+                <div class="progress-container">
+                    <input type="range" id="seek-bar" class="seek-bar" value="0">
+                    <div class="time-stamps">
+                        <span id="current-time">0:00</span>
+                        <span id="duration">2:18</span>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <button id="rewind-btn" class="control-btn"><i class="fas fa-backward"></i></button>
+                    <button id="play-pause-btn" class="control-btn play"><i class="fas fa-play"></i></button>
+                    <button id="forward-btn" class="control-btn"><i class="fas fa-forward"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio id="audio-element" src="NLE_Choppa_-_Gang_Baby.mp3"></audio>
+    <script src="audio.js" defer></script>
+
+</body>
+</html>
